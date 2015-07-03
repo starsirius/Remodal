@@ -12,8 +12,8 @@
     define(['jquery'], function($) {
       return factory(root, $);
     });
-  } else if (typeof exports === 'object') {
-    factory(root, require('jquery'));
+  //} else if (typeof exports === 'object') {
+  //  factory(root, require('jquery'));
   } else {
     factory(root, root.jQuery || root.Zepto);
   }
